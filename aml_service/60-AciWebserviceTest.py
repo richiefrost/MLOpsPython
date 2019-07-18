@@ -61,3 +61,6 @@ except Exception as e:
     result = str(e)
     print(result)
     raise Exception("ACI service is not working as expected")
+
+# Delete aci after test
+service.delete()

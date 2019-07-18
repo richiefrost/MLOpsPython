@@ -29,7 +29,7 @@ import numpy as np
 import pandas as pd
 
 
-# get absolute path of csv files from data folder
+# get absolute path of csv files from the data folder
 def get_absPath(filename):
     """Returns the path of the notebooks folder"""
     path = os.path.abspath(
